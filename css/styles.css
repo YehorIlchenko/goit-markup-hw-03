@@ -82,8 +82,8 @@ body{
   display: flex;
 }
 
-.web-link>.link :not(:last-child) {
-  margin-right: 50px;
+.web-link> .link :not(:last-child) {
+ margin-right: 50px;
 }
 
 .web-link a{
@@ -119,7 +119,7 @@ body{
   padding-bottom: 32px;
 }
 
-.header-link > li{
+/*.header-link > li{
   margin-right: 50px;
 }
 
@@ -131,8 +131,6 @@ body{
  padding-bottom: 200px;
  background-color: var(--footer-background-color);
 }
-
-
 
 .bbc-text{
   display: block;
@@ -226,6 +224,8 @@ body{
 /*чем занимаемся*/
 
 .waht-doing {
+ margin-bottom: 50px;
+
  font-size: 36px;
  line-height: 42px;
  text-align: center;
@@ -417,10 +417,14 @@ body{
   flex-wrap: wrap;
   justify-content: center;
 }
-.conteiner-ul > .container-li:not(:last-child) {
+/*.conteiner-ul > .container-li:not(:last-child) {
   margin-right: 8px;
 }
-.conteiner-ul > .container-li:nth-child(5n) {
+*/
+.conteiner-ul> .portfolio-button-li :not(:last-child) {
+  margin-right: 8px;
+}
+.conteiner-ul > portfolio-button-li:nth-child(5n) {
   margin-right: 0;
 }
 
@@ -441,13 +445,12 @@ body{
   border: 0;
   cursor: pointer;
 }
-.button.primari:hover,
-.button.primari:focus {
+.button-portfolio :hover,
+.button-portfolio :focus {
   color: var(--body-background-color);
   background-color: var(--hover-text-color);
   border-radius: 4px;
 }
-
 
 .button-portfolio{
  background-color: var(--buton-color);
@@ -484,11 +487,11 @@ body{
   border: 1px solid #eeeeee;
 }
 
-/*.projects-view-h3 {
+.projects-view-h3 {
   width: 322px;
   height: 38px;
 }
-*/
+
 /*.projects-view-h3{
  font-weight: bold;
  font-size: 18px;
@@ -518,3 +521,9 @@ body{
   height: 32px;
 }
 
+.projects-div {
+  padding-top: 20px;
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 20px;
+}
