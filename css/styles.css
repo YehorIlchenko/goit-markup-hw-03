@@ -53,6 +53,10 @@ body{
   display: flex;
   align-items: center;
 }
+
+.head {
+ border-bottom: 1px solid #ececec;
+}
 /*логотип-веб*/
 
 .logo{
@@ -82,7 +86,7 @@ body{
   display: flex;
 }
 
-.web-link> .link :not(:last-child) {
+.web-link > .link:not(:last-child) {
  margin-right: 50px;
 }
 
@@ -100,11 +104,12 @@ body{
  color: var(--hover-text-color);
 }
 
-.header-link a{
+.header-link a {
  font-weight: 500;
  font-size: 14px;
  line-height: 1.14;
  letter-spacing: 0.02em;
+
  color: var(--text-grey-color);
 }
 
@@ -113,16 +118,21 @@ body{
  color: var(--hover-text-color);
 }
 
-.header-link{
-  display: block;
+/*.header-link {
+  display: flex;
+}
+*/
+
+.header-link {
+  display: flex;
   padding-top: 32px;
   padding-bottom: 32px;
+  margin-left: auto;
 }
 
-/*.header-link > li{
+.header-link > li:not(:last-child) {
   margin-right: 50px;
-}
-
+ }
 
 /*решение*/
 .bbc{
@@ -417,15 +427,8 @@ body{
   flex-wrap: wrap;
   justify-content: center;
 }
-/*.conteiner-ul > .container-li:not(:last-child) {
+.conteiner-ul > .portfolio-button-li:not(:last-child) {
   margin-right: 8px;
-}
-*/
-.conteiner-ul> .portfolio-button-li :not(:last-child) {
-  margin-right: 8px;
-}
-.conteiner-ul > portfolio-button-li:nth-child(5n) {
-  margin-right: 0;
 }
 
 /*.projects{
