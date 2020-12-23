@@ -368,7 +368,6 @@ body{
 }
 
 .logo-footer {
-  margin-top: 54px;
   margin-bottom: 20px;
 }
 
@@ -419,10 +418,11 @@ body{
 
 .projects {
   padding-top: 94px;
-  padding-bottom: 50px;
+  padding-bottom: 94px;
 }
 
 .conteiner-ul {
+  padding-bottom: 50px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -465,10 +465,11 @@ body{
   color: var(--text-wite-color);
 }
 
-/*проекты*/
+/*проекты
 .projects-portfolio {
   padding-bottom: 26px;
 }
+*/
 
 .project-view {
   display: flex;
